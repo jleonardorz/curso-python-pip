@@ -51,3 +51,56 @@ Abrir un proyecto en VSCODE
 2. mkdir proyecto
 3. cd proyecto
 4. code .
+
+
+## Repositorio en Git
+
+1. POr web crear un repositorio : + > New Repository
+2. Nombre repositorio
+3. Repositorio publico
+4. Crear repositorio
+5. Link conexión 
+
+git remote add origin https://github.com/..............
+
+6. Estando en la carpeta del proyecto desde la terminal de Bash Git
+7. git init -> Inicializa el repositorio
+8. link conexion
+    git remote add origin https://github.com/............
+9. Verificar enlace git remote -v
+
+
+**Configuracion git para identidad**
+
+1. Terminal bash Git
+2. git config --global user.name "Tu Nombre"
+   git config --global user.email "tuemail@example.com"
+3. Verificar configuracion
+    git config --global --list
+
+
+**Cambios sincronizar**
+
+1. git add *   - Inicia seguimiento al archivo
+2. git commit -m "Mi primer archivo"  - Envia cambio a la BD sistema
+3. git push origin master  - Pasar cambios al servidor remoto
+4. Ya quedan subidos en GitHub
+
+
+**Hacer un repo profesional**
+
+1. En gitinore io - https://www.toptal.com/developers/gitignore
+    Archivos que deberían ignorarse y no deben ser parte del repositorio
+2. En el pront: Windows Linux macOs Python 
+3. Dar en Create
+4. Copiar archivo
+5. en VS Code crear archivo .gitignore
+
+6. Crear archivo README.md
+    Instrucciones que quiera trabar con el proyecto
+7. Se deja inicializado con
+    # Steps
+
+
+
+### Comi
