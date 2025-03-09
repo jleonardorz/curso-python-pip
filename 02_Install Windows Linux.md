@@ -99,8 +99,13 @@ git remote add origin https://github.com/..............
 6. Crear archivo README.md
     Instrucciones que quiera trabar con el proyecto
 7. Se deja inicializado con
-    # Steps
+    `# Steps`
 
 
 
-### Comi
+### Commit cambios
+
+1. git add *
+2. git commit -m "add files"
+3. git push origin master
+
