@@ -91,5 +91,3 @@ Ayuda a mantener las dependencias y módulos, y que versiones necesita para corr
 
 Luego para instalar las dependencias
 1. pip install -r requirements.txt
-
-
