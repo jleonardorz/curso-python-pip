@@ -96,7 +96,7 @@ git remote add origin https://github.com/..............
 4. Copiar archivo
 5. en VS Code crear archivo .gitignore
 
-6. Crear archivo README.md
+6. Crear archivo README.md  - Archivo por defecto GitHub
     Instrucciones que quiera trabar con el proyecto
 7. Se deja inicializado con
     `# Steps`
@@ -105,7 +105,11 @@ git remote add origin https://github.com/..............
 
 ### Commit cambios
 
-1. git add *
+1. git add *   - para agregar .gitignore con git add .
 2. git commit -m "add files"
 3. git push origin master
 
+
+### Comandos
+
+1. git status - estado de git
