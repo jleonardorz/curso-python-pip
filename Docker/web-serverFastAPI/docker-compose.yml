@@ -1,0 +1,10 @@
+services:
+  app-web-serverfastapi:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/web-serverFastAPI
+    ports:
+      - '8043:8043'
+    
