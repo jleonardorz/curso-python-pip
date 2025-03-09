@@ -23,7 +23,8 @@ python main.py
 ```sh
 git clone
 cd csv
+python3 -m venv env
 source env/bin/activate
-pip4 intall -r requirements.txt
+pip4 install -r requirements.txt
 python3 main.py
 ```
